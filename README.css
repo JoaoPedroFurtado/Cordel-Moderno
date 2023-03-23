@@ -1,0 +1,139 @@
+@ -0,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Lato:wght@400;700&family=Noto+Sans:wght@100;200&family=Passion+One&family=Poppins:wght@200;300;400;600;700;800;900&family=Roboto:ital,wght@0,400;1,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+nav{
+    width: 100%;
+    height: 34vh;
+    background-color: black;
+}
+.navegation h1{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    font-size: 9.5vw;
+    font-family: var(--fonte2);
+}
+.navegation h3, ul li a{
+    color: white;
+    display: flex;
+    font-family: var();
+    justify-content: center;
+    padding-bottom: 10px;
+    margin-left: 6px;
+    text-decoration: none;
+    transition:  all 0.5s;
+}
+.navegation ul li a:hover{
+   color: #fff solid 1px;
+}
+header .letra1{
+    font-size: 3.3vw;
+    font-family: var(--fonte3);
+    padding-top: 110px;
+    padding-bottom: 150px;
+    margin-left: 30px;
+    font-weight: 400;
+    line-height: 130px
+}
+.img-fundo{
+    background-image: url(./background001.jpg);
+    background-color: rgba(0, 0, 0, 0.439);
+    width: 100%;
+    height: 108vh;
+    box-shadow: inset 6px 6px 13px 0 rgb(0, 0, 0);
+    background-attachment: fixed;
+}
+.div2{
+    font-size: 3.0vw;
+    font-family: var(--fonte3);
+    padding-top: 110px;
+    margin-left: 30px;
+    font-weight: 400;
+    line-height: 120px;
+    color: white;
+}
+.div2 p{
+    background: rgba(0, 0, 0, 0.428);
+    width: 38%;
+}
+div .letra3{
+    font-size: 3.3vw;
+    font-family: var(--fonte3);
+    padding-top: 10px;
+    margin-left: 30px;
+    padding-bottom: 100px;
+    font-weight: 400;
+    line-height: 130px
+}
+.img-fundo2{
+    background-image: url(./background002.jpg);
+    background-color: rgba(0, 0, 0, 0.439);
+    width: 100%;
+    height: 108vh;
+    box-shadow: inset 6px 3px 10px 0 rgb(0, 0, 0);
+    background-attachment: fixed;
+}
+.div3{
+    font-size: 3.0vw;
+    font-family: var(--fonte3);
+    padding-top: 110px;
+    margin-left: 30px;
+    font-weight: 400;
+    line-height: 120px;
+    color: white;
+}
+.div3 p{
+    background: rgba(0, 0, 0, 0.428);
+    width: 39%;
+}
+div .letra4{
+    font-size: 3.3vw;
+    font-family: var(--fonte3);
+    padding-top: 100px;
+    margin-left: 30px;
+    padding-bottom: 100px;
+    font-weight: 400;
+    line-height: 130px
+}
+div .letra5{
+    font-size: 3.3vw;
+    font-family: var(--fonte3);
+    padding-top: 10px;
+    margin-left: 30px;
+    padding-bottom: 150px;
+    font-weight: 400;
+    line-height: 130px
+}
+
+footer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+}
+.footer p{
+    font-size: 1.3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+    letter-spacing: 1px;
+} 
+.marca{
+    color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-decoration: none;    
+}
